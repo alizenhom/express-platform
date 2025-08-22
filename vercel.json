@@ -1,0 +1,14 @@
+{
+  "buildCommand": "echo 'No build needed for serverless functions'",
+  "outputDirectory": ".",
+
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://heyzest.ai",
+      "permanent": true
+    }
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "crons": []
+}
